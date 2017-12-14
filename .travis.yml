@@ -12,7 +12,7 @@ script:
 deploy:
   provider: pages
   local_dir: $(pwd)/output
-  repo: https://github.com/HYmian/HYmian.github.io.git
+  repo: HYmian/HYmian.github.io
   skip_cleanup: true
   target_branch: master
   fqdn: hymian.github.io
