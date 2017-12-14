@@ -15,7 +15,6 @@ deploy:
   repo: HYmian/HYmian.github.io
   skip_cleanup: true
   target_branch: master
-  fqdn: hymian.github.io
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
