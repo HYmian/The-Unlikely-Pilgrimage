@@ -1,0 +1,16 @@
+baseURL = "http://hymian.github.io/"
+languageCode = "en-us"
+title = "mian"
+theme = "dream"
+
+[params]
+  author = "" # Site author or as default article author
+  motto = ""
+  description = "" # <meta name="description" content="">
+  avatar = "https://s.gravatar.com/avatar/d79d2d09ab1ffd80c436250a89c6a7fe?s=800" # your logo
+  
+  email = ""
+  github = ""
+  linkedin = ""
+  codepen = ""
+  stackoverflow = ""
