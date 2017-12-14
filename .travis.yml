@@ -7,7 +7,7 @@ before_install:
 - docker pull jojomi/hugo:0.31
 
 script:
-- docker run -v $(pwd):/src -v $(pwd)/output:/output -e HUGO_THEME=dream jojomi/hugo:0.31
+- docker run -v $(pwd):/src -v $(pwd)/output:/output jojomi/hugo:0.31
 
 deploy:
   provider: pages
