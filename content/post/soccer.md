@@ -47,11 +47,33 @@ date: 2017-12-23T19:02:49+08:00
 
 图中每一个黑色方块代表一种场上位置
 
-`GK`是守门员的缩写，`雅辛`是唯一一名得过金球奖的守门员，来自苏联
+`GK`是守门员(goalkeeper)的缩写，`雅辛`是唯一一名得过金球奖的守门员，来自苏联
 
 `SW`是清道夫的缩写，这个位置现在比较少见，但是96年金球得主萨默尔是打这个位置
 
-`DL/R`是左/右后卫的缩写，
+`D(L/R)`是左/右后卫的缩写
+
+`WB(L/R)`是左/右边后卫的缩写，也叫边翼位
+
+`DC`是中后卫的缩写
+
+`SW`和`D(L/C/R)`都可以归为***后卫***，`WB(L/R)`介乎后卫和中场之间
+
+`DM`是防守型中场的缩写，也叫后腰
+
+`MC`是中场中的缩写，也叫中前卫
+
+`M(L/R)`是左/右中场的缩写，也叫左/右边前卫
+
+`AMC`是进攻型中场中的缩写，也叫前腰
+
+`DM`、`M(L/C/R)`和`AMC`都可以称为***中场***
+
+`AM(L/R)`是进攻型中场左/右，也叫左/右边锋
+
+`STC`是striker center的缩写，也有一种叫法叫`CF`，是center forward的缩写
+
+`AM(L/R)`和`STC`都可以称为***前锋***
 
 
 ![阵型图](/img/soccer2.png)
@@ -60,3 +82,4 @@ date: 2017-12-23T19:02:49+08:00
 5. [金球奖百度百科](https://baike.baidu.com/item/%E9%87%91%E7%90%83%E5%A5%96/12010559)
 5. [体坛专访《法国足球》总编：金球永远只有一个！](https://baike.baidu.com/redirect/026b6vzVFMAHysBeZoYZFLod9wq8H5b-EjenfwD-wJNYydRNXPmLFOGwSHBFiJlw5cmGb2Pljf33OPHIzMym0pliVHm7cI2WWdSaIeZCEUMzVpo1lelb9ctE3J25OPNr2MTXFzkxqXaxUfE9uKHa2q8)
 5. [《法国足球》官网历届金球奖得主名单](https://baike.baidu.com/redirect/a42aYProDCgenCuMz7wJTTYvWSWTRGIflTzDvrFNiJniWUDJ_poUmq_NEEBj8jr70rZ9OYNJ6yS9tyiWKp-S_ZRDu97gNxr2WM6L0MoNcg)
+5. [维基百科-前锋](https://en.wikipedia.org/wiki/Forward_(association_football))
