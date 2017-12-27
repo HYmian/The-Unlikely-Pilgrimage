@@ -110,3 +110,17 @@ file_lines (const char *pretty_filename, int fd, uintmax_t n_lines,
   return true;
 }
 ```
+先解释下几个参数：
+
+* `pretty_filename` - 文件名，打印到标准输出时用
+* `fd` - 文件描述符，用来读取文件内容
+* `n_lines` - 需要读取的行数
+* `start_pos` - 从fd读取内容的起始位置
+* `end_pos` - 从fd读取内容的结束位置
+* `read_pos` - 在fd读取到的位置，对这个函数逻辑没有影响
+
+主要逻辑在代码的注释中都讲的很清楚了，有几点细节：
+
+5. 判断文件的大小，如果文件的size不是`BUFSIZ`的整数倍，则先把读取余数，使剩余量对齐为`BUFSIZ`的整数倍
+5. `memrchr`函数 - 读取`buffer`中的字符，并与`line_end`比较，如果匹配则返回字符所在的位置，但是采用倒序读取，即从`buffer+n`开始读取
+5. 第一次读取的`buffer`，判断头尾是不是`line_end`，如果不是的话，行计数要加一
