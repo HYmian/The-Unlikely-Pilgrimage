@@ -2,7 +2,7 @@
 title: "for...range和闭包"
 date: 2017-12-30T01:32:53+08:00
 tags: [
-	"golang",
+    "golang",
 ]
 ---
 
@@ -15,19 +15,19 @@ package main
 import "time"
 
 func main() {
-	ss := []string{
-		"haha",
-		"hehe",
-		"xixi",
-	}
+    ss := []string{
+        "haha",
+        "hehe",
+        "xixi",
+    }
 
-	for _, s := range ss {
-		go func() {
-			print(s, "\n")
-		}()
-	}
+    for _, s := range ss {
+        go func() {
+            print(s, "\n")
+        }()
+    }
 
-	time.Sleep(1 * time.Second)
+    time.Sleep(1 * time.Second)
 }
 ```
 如果我们无意中写出这种代码，心里预期的输出可能是三个不同的字符串，当然，顺序可能是不固定的，这是`goroutine`的特性决定的，我们这里就不做说明了，但实际上着代码的输出会是
@@ -44,20 +44,20 @@ package main
 import "time"
 
 func main() {
-	ss := []string{
-		"haha",
-		"hehe",
-		"xixi",
-	}
+    ss := []string{
+        "haha",
+        "hehe",
+        "xixi",
+    }
 
-	for _, s := range ss {
-		go func(s1 string) {
-			print(s1, "\n")
-		}(s)
-		// time.Sleep(1 * time.Microsecond)
-	}
+    for _, s := range ss {
+        go func(s1 string) {
+            print(s1, "\n")
+        }(s)
+        // time.Sleep(1 * time.Microsecond)
+    }
 
-	time.Sleep(1 * time.Second)
+    time.Sleep(1 * time.Second)
 }
 ```
 则可以得到我们期望的输出
