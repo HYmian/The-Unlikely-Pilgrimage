@@ -1,5 +1,4 @@
 sudo: required
-group: deprecated-2017Q4
 
 services:
 - docker
@@ -12,7 +11,7 @@ script:
 
 deploy:
   provider: pages
-  local_dir: $(pwd)/output
+  #local_dir: $(pwd)/output
   repo: HYmian/HYmian.github.io
   skip_cleanup: true
   target_branch: master
