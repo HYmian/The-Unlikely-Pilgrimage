@@ -1,6 +1,9 @@
 ---
 title: "仿kubeadm输出版本信息"
 date: 2018-01-15T00:16:35+08:00
+tags: [
+    "golang",
+]
 ---
 
 一直很喜欢`kubeadm version`子命令输出的版本信息格式

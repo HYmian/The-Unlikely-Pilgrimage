@@ -1,6 +1,10 @@
 ---
 title: "gin-errorlog中间件"
 date: 2018-01-18T23:30:47+08:00
+tags: [
+    "golang",
+    "gin",
+]
 ---
 
 一直在用[gin](https://github.com/gin-gonic/gin)这个框架来做web开发，但是在开发过程中有一点繁琐的地方：
