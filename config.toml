@@ -1,7 +1,7 @@
 baseURL = "http://hymian.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "mian"
+title = "一个人的朝圣"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "evan"
